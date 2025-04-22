@@ -1,0 +1,53 @@
+body{
+margin: 0;
+background-color: black;  
+}
+
+h1{
+    color: antiquewhite;
+    padding: 1px 15px;
+    margin-left: 40%;
+    position: absolute;
+}
+
+
+ul{
+    margin:0;
+    list-style-type: none;
+    padding: 10px 20px;
+    background-color: rgb(103, 10, 10);
+    position: fixed;
+    height: 100%;
+}
+
+
+
+li a:hover:not(.nav_bar) {
+    background-color: rgb(224, 21, 21);
+    color: rgb(10, 9, 9);
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(211, 198, 198);
+    padding: 16px 60px;
+}
+
+
+p{
+    color: aliceblue;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    display: block;
+}
+
+li img{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 65%;
+    border-radius: 10px;
+}

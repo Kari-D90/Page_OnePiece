@@ -1,0 +1,45 @@
+body{
+   margin: 0%;
+    background-color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #141212;
+    position:fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #efdada;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover:not(.nav_bar) {
+    background-color: #be2626;
+    color: rgb(7, 6, 6);
+  }
+  
+  .text{
+    color: antiquewhite;
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px; 
+  }
+  
+
+section{
+  color: rgb(250, 240, 240);
+  margin-left: 17%;
+  margin-right: 11%;
+  padding: 1px 16px;
+  position: absolute;
+}
+

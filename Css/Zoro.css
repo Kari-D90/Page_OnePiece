@@ -1,0 +1,36 @@
+li a{
+    text-decoration: none;
+    display: block;
+    color: rgb(233, 221, 221);
+    padding: 15px 8px;
+  }
+
+ul{
+    margin: 0;  
+    list-style-type: none;
+    padding: 10px 10px;
+    background-color: rgb(9, 75, 20);
+    position: fixed;
+    height: 100%;
+}
+
+  
+li a:hover:not(.nav_bar) {
+    background-color: aliceblue;
+    color: rgb(14, 14, 13);
+     }
+
+   
+     body{
+      margin: 0;
+      background-color: black;
+     }
+
+     h1{
+      color: antiquewhite;
+    padding: 1px 15px;
+    margin-left: 40%;
+    position: absolute;
+     }
+
+     
