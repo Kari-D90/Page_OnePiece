@@ -2,6 +2,22 @@ body{
     background-color: black;
 }
 
-h1{
-    color: #fef6f6;
+.gallery{
+    display: flex;
+    gap: 15px;
+}
+
+.gallery img{
+    height: 200PX;
+   
+}
+
+.gallery img:hover{
+    height: 250px;
+   
+}
+
+
+label{
+    color: #fcf3f3;
 }

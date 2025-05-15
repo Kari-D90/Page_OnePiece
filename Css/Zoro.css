@@ -31,6 +31,16 @@ li a:hover:not(.nav_bar) {
     padding: 1px 15px;
     margin-left: 40%;
     position: absolute;
+    font-size: 40px;
      }
 
-     
+     p{
+      color: aliceblue;
+      padding: 60px 10px;
+      position:absolute;
+      margin-left: 20%;
+      margin-right: 20px;
+      font-size: 18px;
+      line-height: 1.5;
+      
+     }

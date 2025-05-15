@@ -12,7 +12,7 @@ width:100%; /*ancho del contenedor*/
 
 .header-nav { 
 display: flex; /* Usa el modelo de diseño flexbox para organizar los elementos dentro de .header-nav.*/
-background-color: #b92121;
+background-color: #bd2323;
 align-items: center; /*alinea verticalmente los elementos al centro del contenedor*/
 justify-content: space-between; /*Distribuye los elementos de forma que haya espacio entre ellos, alineándolos al principio y al final del contenedor.*/
 padding: 10px 20px; /*Añade espacio interior de 10px arriba y abajo, y 20px a los lados.*/
@@ -43,7 +43,7 @@ text-shadow: 2px 2px 2px #110f11;
 }
 
 .link:hover {
-background-color:rgba(62, 7, 59, 0.286);
+background-color:rgb(149, 9, 9);
 border-radius: 4px;
 }
 
@@ -54,7 +54,7 @@ form {
     height: 50px;
     background: rgb(243, 237, 237);
     border-radius: 25px;
-    border: 4px solid rgb(242, 181, 181);
+    border: 4px solid rgb(119, 16, 16);
     overflow: hidden;
     margin-top: 15px;
   }
@@ -154,10 +154,15 @@ img{
   }
 
  .button{
+
   text-decoration: none;
   color: #efe0eb;
-  padding: 10px 20px;
+  border: rgb(149, 9, 9) solid 14px;
+  background-color: rgb(149, 9, 9);
+  border-radius: 80px;
  }
 
-
- 
+.button:hover{
+  background-color: rgb(105, 11, 11);
+  border: rgb(105, 11, 11) solid 14px;
+}
