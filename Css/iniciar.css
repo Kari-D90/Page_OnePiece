@@ -52,3 +52,25 @@ label {
 input::placeholder { 
     font-size: 12px;
      }
+
+     
+    button{
+        margin-top: 5%;
+        margin-left: 35%;
+    }
+  
+    button{
+     background-color: black;
+     border: solid #999;
+     border-radius: 8px;
+     padding: 10px 28px;
+     color: white;
+     text-decoration: none;
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    button:hover{
+        background-color: white;
+        color:black;
+    }

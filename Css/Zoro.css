@@ -44,3 +44,8 @@ li a:hover:not(.nav_bar) {
       line-height: 1.5;
       
      }
+
+     img{
+      margin-left: 25%;
+      opacity: 9%;
+     }

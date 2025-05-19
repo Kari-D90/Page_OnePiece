@@ -1,0 +1,123 @@
+
+    body{
+        background-color: black;
+    }
+    
+    .contenedor {
+      display: flex;
+      height: 100vh;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 40px 60px;
+      background-color: black;
+      color: white;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .texto {
+      max-width: 600px;
+      flex: 1;
+    }
+
+    .texto h3 {
+      border: solid 2px white;
+      border-radius: 10px;
+      display: inline-block;
+      padding: 6px;
+      font-size: 15px;
+    }
+
+    .texto h1 {
+      font-size: 60px;
+      margin: 10px 0;
+    }
+
+    .texto h2 {
+      font-size: 30px;
+      margin: 10px 0;
+    }
+
+    .texto p {
+      margin: 20px 0;
+    }
+
+    .rating {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+
+    button {
+      margin-right: 10px;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    button:first-of-type {
+      background-color: transparent;
+      border: 1px solid white;
+      color: white;
+    }
+
+    button:last-of-type {
+      background-color: red;
+      color: white;
+    }
+
+    .video-thumbnails {
+      display: flex;
+      margin-left: 45%;
+      flex-direction: column;
+      gap: 15px;
+      flex: 1;
+    }
+
+    .video-thumbnails iframe {
+      width: 100%;
+      max-width: 320px;
+      height: 180px;
+      border-radius: 10px;
+      border: none;
+      transition: transform 0.3s ease;
+    }
+
+    .video-thumbnails iframe:hover {
+      transform: scale(1.03);
+    }
+
+   
+    @media screen and (max-width: 768px) {
+      .contenedor {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+      }
+
+      .texto h1 {
+        font-size: 40px;
+      }
+
+      .video-thumbnails {
+        align-items: center;
+        width: 100%;
+      }
+
+      .video-thumbnails iframe {
+        max-width: 100%;
+        height: 200px;
+
+      }
+    }
+
+
+
+
+   button:hover{
+     transform: scale(1.02);
+     box-shadow: 0px 0px 6px white; 
+     
+   }

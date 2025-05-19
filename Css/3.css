@@ -1,23 +1,15 @@
-body{
-    background-color: black;
-}
 
 .gallery{
-    display: flex;
-    gap: 15px;
+ display: grid;
+ grid-template-columns:repeat(
+    auto-fit,minmax(150px, 1fr)
+ ) ;
 }
 
-.gallery img{
-    height: 200PX;
-   
+img{
+border-radius: 7px;
+    width: 100%;
+    height: auto; 
+    box-shadow: 0px 0px 30px #000;
 }
-
-.gallery img:hover{
-    height: 250px;
-   
-}
-
-
-label{
-    color: #fcf3f3;
-}
+    

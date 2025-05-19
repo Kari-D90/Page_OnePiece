@@ -1,0 +1,138 @@
+*{
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+   overflow: hidden;
+}
+
+.pirata{
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ .pirata-contenedor{
+    margin-top: 100px;
+    max-width: 500px;
+ }
+
+ .pirata-contenedor h2{
+    font-size: 24px;
+    color: #ccc;
+ }
+
+ .pirata-contenedor h1{
+    font-size: 60px;
+    margin: 10px 0;
+ }
+
+
+ .pirata-contenedor p{
+    margin-bottom: 20px;
+ }
+ 
+ .pirata-contenedor button{
+    background: gold;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.15s linear;
+ }
+ 
+ .carrusel{
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+ }
+
+ .carta_contenedor{
+    display: flex;
+    gap: 15px;
+    scroll-behavior:smooth;
+    padding: 10px 20px;
+ }
+
+ .carta{
+    min-width: 200px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+ }
+
+ .carta:hover{
+   box-shadow: 0px 0px 10px 0px yellow;
+ }
+
+
+ .carta-texto {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 15px 15px;
+ }
+
+.carrusel a{
+    text-decoration: none;
+    color: white;
+ }
+ .carrusel-control{
+    position: absolute;
+  right: 50px;
+  bottom: 40px;
+ }
+
+button:hover{
+   background-color: rgb(88, 88, 16);
+   color: grey;
+}
+
+
+
+nav a:hover{
+   color: yellow;
+
+}
+
+.prev{
+   padding: 5px 10px;
+   margin-right: 90%;
+   border-radius: 5%;
+   border: none;
+}
+
+.next{
+   padding: 5px 10px;
+   border-radius: 5%;
+   border: none;
+}
+
